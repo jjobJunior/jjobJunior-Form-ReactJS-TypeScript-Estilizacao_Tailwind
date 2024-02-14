@@ -77,7 +77,7 @@ const Form = () => {
             onChange={(e) => setAgree(e.target.checked)}
           />
           <label className="text-sm" htmlFor="agree">
-            Concordo com os termos
+            Concorde com os termos
           </label>
           {errors?.agree && (
             <small className="text-xs text-red-500 mt-1">{errors?.agree}</small>
